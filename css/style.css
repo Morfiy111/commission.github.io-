@@ -1,0 +1,200 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+a,
+button {
+    transition: all .3s linear;
+}
+
+.dark-block {
+    background-color: #131315;
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu {
+    text-align: right;
+}
+
+.header-button-lk a {
+    padding: 10px 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.header-button-lk a:hover {
+    color: #131315;
+    background-color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    white-space: nowrap;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+.subtitle-block {
+    font-size: 24px;
+    max-width: 562px;
+    margin-bottom: 60px;
+}
+
+.main-block {
+    padding: 80px 0;
+    background-image: url('../images/waves.jpg');
+    background-size: 100%;
+}
+
+.main-btn button {
+    background-color: #f65a5b;
+    border: 2px solid #f65a5b;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.main-btn button:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.header-logo img {
+    width: 300px;
+}
+
+.situation-block {
+    display: flex;
+    border: 2px solid #333237;
+}
+
+.situation-title {
+    padding: 90px 40px 0 40px;
+    border-right: 2px solid #333237;
+}
+
+.situation-buttons {
+    padding: 40px 40px 0 40px;
+}
+
+.button-square {
+    background-color: #1b1c1e;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 4px;
+    margin: 0 15px 15px 0;
+}
+
+.situation-buttons {
+    display: flex;
+}
+
+.button-square a {
+    color: #848aa4;
+    margin-bottom: 20px;
+    width: 114px;
+}
+
+.button-square a:hover {
+    text-decoration: none;
+}
+
+.button-square img {
+    width: 40px;
+    height: 38px;
+    margin-bottom: 30px;
+}
+
+.line-block {
+    border: 2px solid #333237;
+}
+
+.situation-buttons-left {
+    position: relative;
+    bottom: 105px;
+}
+
+.navbar-nav {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        justify-content: flex-end;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .situation-block {
+        flex-direction: column;
+    }
+
+    .situation-title {
+        padding: 40px 40px 100px 40px;
+        border-right: none;
+    }
+}
+
+@media (max-width: 583px) {
+    .header-logo img {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 483px) {
+    .situation-buttons {
+        display: block;
+    }
+
+    .situation-buttons-left {
+        position: inherit;
+        bottom: 0;
+    }
+
+    .situation-title {
+        padding: 40px 40px 0px 40px;
+    }
+
+    .header-logo img {
+        width: 150px;
+    }
+}
